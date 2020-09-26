@@ -1,0 +1,28 @@
+{
+  "name": "lambo",
+  "version": "1.0.0",
+  "description": "\"lambo is a video chat application\"",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cleave3/lambo.git"
+  },
+  "keywords": [
+    "video",
+    "chat"
+  ],
+  "author": "owhiroro cleave <owhiroroeghele@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cleave3/lambo/issues"
+  },
+  "homepage": "https://github.com/cleave3/lambo#readme",
+  "dependencies": {
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "socket.io": "^2.3.0"
+  }
+}
